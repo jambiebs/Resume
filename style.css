@@ -16,13 +16,15 @@ body {
     grid-area: about;
     background-color: #0b3863;
     /* height: 400px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
     font-size: 20px;
     font-weight: bold;
-    padding: 90px 100px 100px;
+    padding-top: 3em;
+    padding-left: 5em;
+    padding-right: 5em;
     color: antiquewhite;
 }
 
