@@ -15,6 +15,7 @@ body {
 .about {
     grid-area: about;
     background-color: #0b3863;
+    height: 100vh;
     /* height: 400px; */
     /* display: flex; */
     /* flex-direction: column; */
@@ -33,6 +34,7 @@ body {
     background-color: #9cb8d3;
     position: relative;
     padding: 10px;
+    height: 100vh;
 }
 
 .aside {
