@@ -198,7 +198,7 @@ img:hover {
 progress{
     height: 25px;
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 500px) {
     body {
         display: grid;
         grid-template-columns: 250px 1fr;
