@@ -15,7 +15,7 @@ body {
 .about {
     grid-area: about;
     background-color: #0b3863;
-    height: 100vh;
+    height: auto;
     /* height: 400px; */
     /* display: flex; */
     /* flex-direction: column; */
@@ -34,7 +34,7 @@ body {
     background-color: #9cb8d3;
     position: relative;
     padding: 10px;
-    height: 100vh;
+    height: auto;
 }
 
 .aside {
@@ -198,3 +198,39 @@ img:hover {
 progress{
     height: 25px;
 }
+@media only screen and (max-width: 360px) {
+    body {
+        display: grid;
+        grid-template-columns: 250px 1fr;
+        grid-template-rows: 260px 1fr;
+        grid-template-areas: "aside about"
+            "aside main";
+    }
+    .about{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .summary{
+        width: 100%;
+        font-size: 18px;
+        margin-bottom: 100px;
+        margin-top: 10px;
+    }
+    .summary p {
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+    .skill {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 50px 1fr;
+        grid-template-areas: "top top"
+            "left right";
+        margin-top: 20px;
+    }
+    }
