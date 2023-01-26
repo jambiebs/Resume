@@ -30,6 +30,8 @@ h3 {
 }
 
 body {
+    width: 96vw;
+    margin: auto;
     display: grid;
     grid-template-columns: 25rem 1fr;
     grid-template-rows: 19rem 1fr 2rem;
@@ -47,7 +49,6 @@ body {
     /* flex-direction: column; */
     /* justify-content: center; */
     /* align-items: center; */
-    font-size: 2rem;
     place-content: center center;
     padding: 1em 3em;
     color: antiquewhite;
@@ -228,7 +229,7 @@ progress[value] {
 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 720px) {
 
     /* body {
         display: grid;
@@ -237,20 +238,28 @@ progress[value] {
         grid-template-areas: "aside about"
             "aside main";
     } */
+    body {
+        width: 96vw;
+        margin: auto;
+    }
     .about {
         width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding: 1em 1em;
     }
 
     .about-desc {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
         font-weight: bolder;
-        line-height: 2.5rem;
+        line-height: 1.7rem;
+    }
+    span {
+        font-size: 1.7rem;
+        font-weight: bolder;
+        line-height: 1.7rem;
     }
 
     .skill {
@@ -281,14 +290,14 @@ progress[value] {
 
 span {
     text-decoration: underline;
-    font-size: 1.8rem;
-    line-height: 4rem;
+    font-size: 1.7rem;
+    line-height: 1.8rem;
     font-weight: 700;
 }
 
 .about-desc {
-    line-height: 2rem;
-    font-size: 1.8rem;
+    line-height: 2.5rem;
+    font-size: 1.7rem;
     font-weight: 700;
 }
 
