@@ -239,10 +239,6 @@ progress[value] {
         grid-template-areas: "aside about"
             "aside main";
     } */
-    body {
-        width: 96vw;
-        margin: auto;
-    }
     .about {
         width: 100%;
         display: flex;
